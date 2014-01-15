@@ -1,0 +1,28 @@
+/* Your Website Styles */
+h1, h3 {
+	font-family: 'Vidaloka', serif;
+	
+}
+
+p {
+	font-family: 'Sintony', sans-serif;
+	text-indent: 2em;
+	line-height: 160%;
+}
+
+h1:hover {
+	color: red;
+}
+
+h1:hover{
+transform: rotate(0deg) scale(1.491) skew(0deg) translate(76px);
+-webkit-transform: rotate(0deg) scale(1.491) skew(0deg) translate(76px);
+-moz-transform: rotate(0deg) scale(1.491) skew(0deg) translate(76px);
+-o-transform: rotate(0deg) scale(1.491) skew(0deg) translate(76px);
+-ms-transform: rotate(0deg) scale(1.491) skew(0deg) translate(76px);
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
